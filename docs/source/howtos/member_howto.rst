@@ -5,6 +5,7 @@ Member's How-to
 -----------
 First steps
 -----------
+
 After receiving and accepting the invitation to join the Organization,
 members can access the Organization's web pages.
 The main page of the Organization can be reached by using the link
@@ -38,6 +39,11 @@ This role grants them the authority to add and remove other members of the Organ
 In this way, they can control the group of collaborators who can actively contribute
 to the development of the code within the repository, provided that these collaborators are members of the Organization.
 
-------------------------
-Authentication to GitHub
-------------------------
+.. figure:: CN-HPC_GitHub_organization_structure.png
+   :width: 604
+   :height: 306
+   :alt: map to buried treasure
+
+   ICSC CN HPC Spoke 4 GitHub organization structure.
+
+
