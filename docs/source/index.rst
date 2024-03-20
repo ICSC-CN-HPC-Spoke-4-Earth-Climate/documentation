@@ -1,14 +1,6 @@
-#################################
-GitHub Organization Documentation
-#################################
-
-*****************************************************************************
-ICSC High-Performance Computing, Big Data e Quantum Computing Research Center
-*****************************************************************************
-
-========================
-Spoke 4: Earth & Climate
-========================
+##################################################
+ICSC Spoke 4 *Earth & Climate* GitHub Organization
+##################################################
 
 Documentation for the GitHub Organization related to Spoke 4 - Earth & Climate of the
 High-Performance Computing, Big Data, and Quantum Computing Research Centre created and run
