@@ -5,7 +5,7 @@ GitHub Documentation Excerpts
 Teams
 -----
 
-GitHub organization `teams <https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams>`_ are groups of organization members.
+GitHub organizations `teams <https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams>`_ are groups of organization members.
 They can only include organization members,
 i.e. outside collaborators cannot be part of a team.
 Multiple levels of nested teams can be created,
