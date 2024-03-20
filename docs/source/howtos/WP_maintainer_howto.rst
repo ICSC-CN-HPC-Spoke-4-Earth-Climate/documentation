@@ -48,3 +48,50 @@ A three-level hierarchy has been implemented:
    within the repository
    (akin to the owner of a personally held GitHub repository).
 
+Memberships, Teams & Repositories Management
+--------------------------------------------
+
+If one or more individual/work group within the WP
+wish to utilize the ICSC Spoke 4 GitHub organization,
+the WP leader must contact the Organization owners, providing:
+
+#. The GitHub usernames of the two maintainers for the WP team,
+   the structure and GitHub usernames of maintainers for the 2nd level teams.
+   The following table can be used as a guide:
+      
+   +-----------------------+--------------+--------------+
+   | Token name            | Maintainer 1 | Maintainer 2 |
+   |                       |              |              |
+   +=======================+==============+==============+
+   | WP team               |              |              |
+   +-----------------------+--------------+--------------+
+   |                       |              |              |
+   +-----------------------+--------------+--------------+
+   | 2nd level team XXXX 1 |              |              |
+   +-----------------------+--------------+--------------+
+   | 2nd level team XXXX 2 |              |              |
+   +-----------------------+--------------+--------------+
+   | ...                   |              |              |
+   +-----------------------+--------------+--------------+
+
+#. The list of developers who are willing to become member of the organization,
+   specifying name, family name, affiliation,
+   GitHub username and a contact email address.
+#. The list of repositories to be created, providing the name,
+   the associated project task,
+   and the GitHub username of the person responsible for the repository.
+
+For convenience, points 2 and 3 can be done using a spreadsheet
+provided by the organization's owners, which contains the following fields:
+
++-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
+| First Name| Last Name | Affiliation | GitHub Username | Contact Email | Task | Repository Name | Repository Manager |
++===========+===========+=============+=================+===============+======+=================+====================+
+|           |           |             |                 |               |      |                 | ✔/✘               |
++-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
+|           |           |             |                 |               |      |                 | ✔/✘               |
++-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
+|           |           |             |                 |               |      |                 | ✔/✘               |
++-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
+
+
