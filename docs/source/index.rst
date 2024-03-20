@@ -1,17 +1,23 @@
-=========================================
-ICSC CN HPC, Big Data e Quantum Computing
-Spoke 4 – Earth & Climate
+#################################
 GitHub Organization Documentation
-=========================================
+#################################
 
-..
-  **Lumache** (/lu'make/) is a Python library for cooks and food lovers
-  that creates recipes mixing random ingredients.
-  It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-  and offers a *simple* and *intuitive* API.
-..
-  Check out the :doc:`usage` section for further information, including
-  how to :ref:`installation` the project.
+*****************************************************************************
+ICSC High-Performance Computing, Big Data e Quantum Computing Research Center
+*****************************************************************************
+
+========================
+Spoke 4: Earth & Climate
+========================
+
+Documentation for the GitHub Organization related to Spoke 4 - Earth & Climate of the
+High-Performance Computing, Big Data, and Quantum Computing Research Centre created and run
+by the `ICSC Foundation <https://www.supercomputing-icsc.it/en/icsc-home/>`_.
+
+`Main page <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate>`_ of the GitHub Organization.
+
+Check out section :doc:`Member's How-to <howtos/member_howto>` for general informations
+and practical guides on the most common operations.
 
 .. note::
 
