@@ -48,8 +48,19 @@ A three-level hierarchy has been implemented:
    within the repository
    (akin to the owner of a personally held GitHub repository).
 
+.. figure:: CN-HPC_GitHub_organization_structure.png
+   :width: 604
+   :height: 306
+   :alt: map to buried treasure
+
+   ICSC CN HPC Spoke 4 GitHub organization structure.
+
 Memberships, Teams & Repositories Management
 --------------------------------------------
+
+For safety and organizational reasons,
+the ability to create repositories within the
+Organization is reserved for owners only.
 
 If one or more individual/work group within the WP
 wish to utilize the ICSC Spoke 4 GitHub organization,
@@ -77,21 +88,75 @@ the WP leader must contact the Organization owners, providing:
 #. The list of developers who are willing to become member of the organization,
    specifying name, family name, affiliation,
    GitHub username and a contact email address.
-#. The list of repositories to be created, providing the name,
+#. The list of repositories to be created, providing the repositoy name,
    the associated project task,
    and the GitHub username of the person responsible for the repository.
 
 For convenience, points 2 and 3 can be done using a spreadsheet
 provided by the organization's owners, which contains the following fields:
 
-+-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
-| First Name| Last Name | Affiliation | GitHub Username | Contact Email | Task | Repository Name | Repository Manager |
-+===========+===========+=============+=================+===============+======+=================+====================+
-|           |           |             |                 |               |      |                 | ✔/✘               |
-+-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
-|           |           |             |                 |               |      |                 | ✔/✘               |
-+-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
-|           |           |             |                 |               |      |                 | ✔/✘               |
-+-----------+-----------+-------------+-----------------+---------------+------+-----------------+--------------------+
++-------+------+-------------+----------+---------+------+------------+------------+
+| First | Last | Affiliation | GitHub   | Contact | Task | Repository | Repository |
+| Name  | Name |             | Username | Email   |      | Name       | Manager    |
++=======+======+=============+==========+=========+======+============+============+
+|       |      |             |          |         |      |            | ✔/✘       |
++-------+------+-------------+----------+---------+------+------------+------------+
+|       |      |             |          |         |      |            | ✔/✘       |
++-------+------+-------------+----------+---------+------+------------+------------+
+|       |      |             |          |         |      |            | ✔/✘       |
++-------+------+-------------+----------+---------+------+------------+------------+
 
+.. warning::
+
+   Each developer must already possess their own personal GitHub account.
+
+The Organization owners will send invitations to the interested developers,
+who will have 7 days to accept the invitation, after which it will expire.
+In the invitation phase, each prospective member is assigned to their
+respective WP and to a series of lower-level teams.
+Additionally, they will be given access to a series of repositories.
+
+Specifically, each member is included as:
+
+#.  Maintainers of 3rd level teams corresponding to
+    the repositories they are responsible for.
+#.  Members of 3rd level teams corresponding to
+    repositories they can access and participate in the development
+    (but they are NOT responsible for).
+#.  Members of the 2nd level related to activities/tasks they are involved in.
+#.  Member of their WP team.
+
+Being a member of each of these teams ensures
+the user a set of permissions on individual repositories.
+This is because access to individual repositories
+is not granted to individual user accounts
+but to Organization teams, following the policy below:
+
+*  3rd level teams: write permissions on the corresponding repository.
+   This enables the actual working group to autonomously manage
+   the contents of the respective repository.
+*  2nd level teams: read permission for all the related repositories.
+   This promotes and strengthens collaboration between the project's
+   groups focusing on similar topics.
+
+Please note that 3rd level teams and repositories have a one-to-one correspondence
+and share the same name.
+The users responsible for a repository are maintainers
+of the corresponding 3rd level teams.
+This role grants them the authority to add and remove
+other members of the Organization to/from the teams.
+In this way, they can control the group of collaboratorswho can actively
+contribute to the development of the code within the repository,
+provided that these collaborators are members of the Organization.
+
+Once developers have joined the Organization, WP team and 2nd level teams
+maintainers can include/remove them in/from the teams they are in charge of.
+It's important to note that being a member of a child team does
+not automatically confer membership in the parent team.
+Therefore, each member should be added independently to each team at every level.
+
+Individual developers can submit requests to join the Organization
+and create repositories at a later time by directly contacting
+the Organization's owners (with the WP leader cc'd)
+and completing the spreadsheet.
 
