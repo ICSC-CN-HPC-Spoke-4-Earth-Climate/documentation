@@ -63,7 +63,7 @@ roles to a restricted group of administrators.
 Organization Structure
 ----------------------
 
-The Structure of a GitHub organization revolves
+The structure of a GitHub organization revolves
 around **Teams**.
 Teams are groups of organization members that can be
 effectively utilized to control member permissions.
@@ -74,18 +74,21 @@ More details about GitHub Teams can be found :ref:`here <Teams>`.
 Considering the structure of the Spoke's working groups,
 a hierarchy of teams corresponding to the project proposal has been deployed.
 Figure :ref:`fig_organization_structure` illustrates such structure.
-The fine structure can be discussed and adapted based on
-the needs of individual work packages
 Five primary teams (**Work Packages Teams**) have been created, corresponding to
 the five work packages of Spoke 4.
 These teams are designed to bring together all the individuals
 involved in or collaborating on the activities within
 each work packages.
 For each WP team, two member are required to be team maintainers
-(basic concept :ref:`here <par_team_maintainers>`).
+(more on this :ref:`here <par_team_maintainers>`).
 Maintainers will be able to manage team memberships and settings.
 This approach ensures the necessary autonomy for individual work packages,
 providing the organization with the required operational flexibility.
+
+The fine structure can be discussed and adapted based on
+the needs of individual work packages.
+The ability to create child teams will be disabled for the ICSC Spoke 4
+GitHub organization members.
 
 Roles
 -----
@@ -95,11 +98,69 @@ Roles are a set of permissions that can be assigned to individuals or teams.
 A permission is the ability to perform an action on GitHub.
 There are three types of roles:
 
-1.	**Repository-level:** creation and access to repositories.
-2.	**Team-level:** team management.
-3.	**Organization-level:** management of the entire organization and its settings, teams, and repositories.
+#. **Organization-level:** management of the entire organization and its settings, teams, and repositories.
+#. **Team-level:** team management.
+#. **Repository-level:** creation and access to repositories.
 
+Organization-level roles are meant to control members' access
+to the organization and its resources.
+Two organization roles are relevant to the ICSC Spoke 4 GitHub Organization:
+
+* **Organization Member**: default, non-administrative role.
+* **Organization Owner**: complete administrative access.
+
+The owners of the ICSC Spoke 4 GitHub Organization are appointed
+by the coordination of the Spoke.
+About 3-4 members are selected for this role,
+to ensure the necessary stability and continuity in the management
+and long-term maintenance of the organization and the connected repositories.
 Organization owners can create repositories, configure their settings,
 delete them, and perform other relevant operations.
-The access to each repository can be defined by `repository-level roles <https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization>`.
+To protect the organization's data, **the creation of repositories
+has been restricted to only the organization owners.**
+Work package leaders or work package team maintainers are required to provide a list
+of the repositories they intend to create or transfer to the organization.
+Later requests will follow a similar protocol.
+More on this in the :ref:`WP Team Maintainer's How-to`.
+
+Team-level roles allow members to manage a team.
+Any organization member can be assigned the role of team maintainer,
+granting them administrative permissions over the team.
+For more information check out :ref:`here <par_team_maintainers>`.
+
+The access to each repository can be defined by
+`repository-level roles <https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization>`_.
 The following table provides a summary of the different possibility:
+
++----------+---------------------------------------------------------------------------------------------------+
+| Role     | Description                                                                                       |
++==========+===================================================================================================+
+| Read     | View the repo (for non-code contributors)                                                         |
++----------+---------------------------------------------------------------------------------------------------+
+| Triage   | NO write access. Manage issues, discussions, and pull requests                                    |
++----------+---------------------------------------------------------------------------------------------------+
+| Write    | Push to the repo (for active contributors)                                                        |                        
++----------+---------------------------------------------------------------------------------------------------+
+| Maintain | Manage the repository without access to sensitive or destructive actions (for project managers)   |
++----------+---------------------------------------------------------------------------------------------------+
+| Admin    | Full access to the repo, including sensitive and destructive actions (security settings/deletion) |
++----------+---------------------------------------------------------------------------------------------------+
+
+General Policies
+----------------
+
+* Throughout the project, the repositories can be kept private.
+  Therefore, it will be accessible only to the the development team
+  and accessible by the related 2nd level team.
+* At the end of the project the repository will be made public.
+  The scientific coordination of the project or the WP maintainers
+  can decide to make public part of the repository during the project lifetime.
+* The purpose of each repo is to contain and track the development of a defined,
+  independent set of programs designed to perform a specific task.
+  Considering the diverse needs of the developers involved in the Spoke,
+  a common layout is not strictly required.
+  Nevertheless, GitHub
+  `best practices <https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories>`_
+  are recommended, particularly the creation of a README file
+  specifying the purpose of the code contained in each repository.
+
