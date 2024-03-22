@@ -16,6 +16,8 @@ should be safe for every member of the parent teams and its child teams,
 while moving towards the bottom of the hierarchy additional permission
 can be granted depending on the needs of the working groups.
 
+.. _par_team_maintainers:
+
 `Team maintainers <https://docs.github.com/en/organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member>`_
 can access team settings and update team description and profile picture.
 They are allowed to `add <https://docs.github.com/en/organizations/organizing-members-into-teams/adding-organization-members-to-a-team>`_

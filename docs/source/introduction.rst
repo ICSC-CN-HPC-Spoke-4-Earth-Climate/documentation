@@ -50,5 +50,52 @@ to organize their repositories according to specific needs,
 while leaving control of the overall structure and organization
 roles to a restricted group of administrators.
 
+Organization Structure and Roles
+--------------------------------
 
+.. fig_organization_structure:
+
+.. figure:: CN-HPC_GitHub_organization_structure.png
+   :name: organization_structure
+   :width: 604
+   :height: 306
+   :alt: map to buried treasure
+
+   ICSC CN HPC Spoke 4 GitHub organization structure.
+
+Within a GitHub Organization, it is possible to define **Teams** and **Roles**. 
+
+Teams are groups of organization members that can be
+effectively utilized to control member permissions.
+It is possible to create nested teams to reflect
+the actual structure of working groups.
+More details about GitHub Teams can be found :ref:`here <Teams>`.
+
+Roles are a set of permissions that can be assigned to individuals or teams.
+Permission is the ability to perform an action on GitHub.
+There are three types of roles:
+1.	**Repository-level:** creation and access to repositories.
+2.	**Team-level:** team management.
+3.	**Organization-level:** management of the entire organization and its settings, teams, and repositories.
+
+Considering the structure of the Spoke's working groups,
+a hierarchy of teams corresponding to the project proposal has been deployed.
+Figure :ref:`fig_organization_structure` illustrates such structure.
+The fine structure can be discussed and adapted based on
+the needs of individual work packages
+Five primary teams (**work packages teams**) have been created, corresponding to
+the five work packages of Spoke 4.
+These teams are designed to bring together all the individuals
+involved in or collaborating on the activities within
+each work packages.
+For each WP team, two member are required to be team maintainers
+(basic concept :ref:`here <par_team_maintainers>`).
+Maintainers will be able to manage team memberships and settings.
+This approach ensures the necessary autonomy for individual work packages,
+providing the organization with the required operational flexibility.
+
+Organization owners can create repositories, configure their settings,
+delete them, and perform other relevant operations.
+The access to each repository can be defined by `repository-level roles <https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization>`.
+The following table provides a summary of the different possibility:
 
