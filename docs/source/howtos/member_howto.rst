@@ -8,17 +8,17 @@ First steps
 
 After receiving and accepting the invitation to join the Organization, 
 members can access the Organization's web pages.
-The `main page of the Organization <https://github.com/CN-HPC-Spoke-4-Earth-Climate>_`
+The `main page of the Organization <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate>`_
 can be reached by using the link in the left sidebar of each member's GitHub main page,
-under the section 'Organizations'.
+under the section **Organizations.**
 In the invitation phase, each prospective member is assigned to their respective WP and 
-to the relevant 2nd level teams.
+to the relevant 2nd-level teams.
 
-After being added to the organization, 
+After being added to the Organization, 
 members can request the creation of new repositories (:ref:`Request the creation of a new repository`).
 For each repository, an organization member is required to be the *manager*, i.e. the person
 responsible for the repository and the associated working group.
-Each repository is associated with a 3rd-level team, which is meant to group the members working
+Each repository is associated with a 3rd-level team, which is meant to group the Organization members working
 on the code contatined within.
 Please note that 3rd-level teams and repositories have a one-to-one correspondence
 and share the same name.
@@ -54,7 +54,6 @@ but to Organization teams, following the policy below:
    :height: 306
    :alt: map to buried treasure
 
-   ICSC CN HPC Spoke 4 GitHub organization structure.
 
 
 ----------------------------------------
@@ -62,16 +61,24 @@ Request the creation of a new repository
 ----------------------------------------
 
 After joining the Organization, each member can request the creation of a new repository.
-The request involves opening a dedicated issue, following the procedure outlined below.
+The request involves opening a dedicated `issue <https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues>`_, 
+following the procedure outlined below.
 
 #. In the repository `administration <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate/administration>`_ 
-   open the **Issues** tob.
+   open the **Issues** tab.
 #. Click **New Issue**, then click the **Get started** button in the **Repository Creation** template.
+
+   .. figure:: repo_creation_template.png
+      :width: 600
+      :height: 50
+      :alt: Repo creation template.
+
 #. Fill in the fileds in the title and description of the issue.
-.. figure:: repo_creation.png
-   :width: 604
-   :height: 306
-   :alt: Repo creation issue snapshot.
+
+   .. figure:: repo_creation.png
+      :width: 600
+      :height: 370
+      :alt: Repo creation issue snapshot.
 
    Please fill in all the fields in <> brackets without deleting any lines.
    If no collaborator exists at the time the repository is created,
@@ -79,10 +86,11 @@ The request involves opening a dedicated issue, following the procedure outlined
    (i.e. delete everything between the squared brackets, including the brackets).
    Leave the *assignees* set to the Organization owners and the *label* set to *new_repo*.
    Below is an example of a correctly compiled request.
-.. figure:: repo_creation_ok.png
-   :width: 604
-   :height: 306
-   :alt: Repo creation issue snapshot.
+
+   .. figure:: repo_creation_ok.png
+      :width: 604
+      :height: 370
+      :alt: Repo creation issue snapshot.
 
 #. After completing the request, click **Submit new issue**.
 
@@ -99,7 +107,6 @@ write access to the repository.
 Authentication to GitHub
 ------------------------
 
-What was previously mentioned applies to the content visible on GitHub.
 In daily use, developers typically work on code saved on their local machines
 and then push the changes they make to their code on GitHub.
 To perform this operation, assumed to be done via the command line,
@@ -108,17 +115,21 @@ it is necessary to use one of the authentication methods offered by GitHub.
 Authentication is the process of supplying or confirming credentials unique for each user,
 proving that a user is indeed who they claim to be.
 On GitHub, this process can occur in various ways.
-An extensive guide on authentication on GitHub can be found on the webpage
+An extensive guide on authentication can be found on the webpage
 `About authentication to GitHub <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github>`_.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^
 Personal Access Tokens
 ^^^^^^^^^^^^^^^^^^^^^^
-For simplicity, it is recommended to access the GitHub Organization's
+
+For simplicity, it is recommended to access the Organization's
 repositories from the command line using HTTPS.
-To this end users must use personal access tokens (PATs) in place of passwords.
-Whenever Git prompts for a password, the PAT must be entered instead.
+To this end users must use **personal access tokens (PATs)** in place of passwords.
+
+.. important::
+   Whenever Git prompts for a password, the PAT must be entered instead.
+
 A comprehensive guide on this topic is available in the GitHub documentation
 (`Managing your personal access tokens <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens>`_). 
 However, a concise guide is provided below,
@@ -135,13 +146,19 @@ To create a fine-grained PAT, users must follow these steps:
 
 #.  `Verify their email address <https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address>`_
     (if it has not been verified yet).
-#.	On any page, click their profile photo (upper-right corner) > Settings.
-#.	On the left sidebar click Developer settings > dropdown menu “Personal access tokens” > Fine-grained tokens > Generate new token (top-right button).
-#.	Set the token name, expiration, resource owner, repository access and permissions according to the table in :ref:`Token Request`. 
-#.	In the Overview section, review the request and submit.
+#.	On any page, click their profile photo (upper-right corner) > **Settings.**
+#.	On the left sidebar click **Developer settings** > dropdown menu **Personal access tokens** > **Fine-grained tokens.**
+#. Click the button **Generate new token** (top-right button).
+#.	Set the token name, expiration, resource owner, 
+   repository access and permissions according to the table in :ref:`Token Request`. 
+#.	In the **Overview** section, review the request and submit.
 
-After receiving approval from the Organization, the token can be utilized instead of a password for accessing the repository from the command line.
-**It is crucial to maintain the security of PATs, treating them with the same level of care as passwords.**
+After receiving approval from the Organization, 
+the token can be utilized instead of a password for accessing the repository from the command line.
+
+.. caution::
+   Maintaining the security of PATs is crucial!
+   They should be treated with the same care as passwords.
 
 
 """""""""""""
@@ -155,13 +172,13 @@ Token Request
 +---------------------+----------------------------------------------------+
 | Resource owner      |	ICSC-CN-HPC-Spoke-4-Earth-Climate                  |
 +---------------------+----------------------------------------------------+
-| Justification	      | Enter a justification for the request              |
+| Justification	    | Enter a justification for the request              |
 +---------------------+----------------------------------------------------+
 | Repository access   |	Only select repositories                           |
 +---------------------+----------------------------------------------------+
 | Select repositories |	Name of the (**single**) repository to access      |
 +---------------------+----------------------------------------------------+
-| Permissions	      | Repository permissions > Contents > Read and write |
+| Permissions	       | Repository permissions > Contents > Read and write |
 +---------------------+----------------------------------------------------+
 
 Notes:
@@ -169,5 +186,6 @@ Notes:
 * Please adhere to the specified format for the token name.
 * The Organization must be specified as the resource owner.
 * Metadata read-only permission will be automatically added to the request.
-* As each token needs approval, please provide a justification for it (e.g. “Code development repository XXXX”).
+* As each token needs approval, please provide a justification for it 
+  (e.g. “Code development repository XXXX”).
 * For management reasons, it is required to generate a separate token for each repository.
