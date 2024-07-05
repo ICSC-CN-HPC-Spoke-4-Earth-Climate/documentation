@@ -6,38 +6,48 @@ Member's How-to
 First steps
 -----------
 
-After receiving and accepting the invitation to join the Organization, members can access the Organization's web pages.
-The `main page of the Organization <https://github.com/CN-HPC-Spoke-4-Earth-Climate>`
+After receiving and accepting the invitation to join the Organization, 
+members can access the Organization's web pages.
+The `main page of the Organization <https://github.com/CN-HPC-Spoke-4-Earth-Climate>_`
 can be reached by using the link in the left sidebar of each member's GitHub main page,
 under the section 'Organizations'.
-In the invitation phase, each prospective member is assigned to their
-respective WP and to a series of lower-level teams.
-Additionally, they will be given access to a series of repositories.
-Specifically, each member is included as:
+In the invitation phase, each prospective member is assigned to their respective WP and 
+to the relevant 2nd level teams.
 
-#.  Maintainers of 3rd level teams corresponding to
-    the repositories they are responsible for.
-#.  Members of 3rd level teams corresponding to
-    repositories they can access and participate in the development
-    (but they are NOT responsible for).
-#.  Members of the 2nd level related to activities/tasks they are involved in.
-#.  Member of their WP team.
+After being added to the organization, 
+members can request the creation of new repositories (:ref:`Request the creation of a new repository`).
+For each repository, an organization member is required to be the *manager*, i.e. the person
+responsible for the repository and the associated working group.
+Each repository is associated with a 3rd-level team, which is meant to group the members working
+on the code contatined within.
+Please note that 3rd-level teams and repositories have a one-to-one correspondence
+and share the same name.
+The repository manager is the *maintainer* of the corresponding 3rd-level team.
+This role grants them the authority to add and remove members of the Organization to/from the team.
+In this way, they can control the group of collaborators who can actively contribute
+to the development of the code within the repository, 
+provided that these collaborators are members of the Organization.
 
-Being a member of each of these teams ensures the user a set of permissions on individual repositories.
+To summarise the typical case, after joining the Organization 
+and once some repositories have been set up, each member is:
+
+#. A member of their WP team.
+#. A member of the 2nd-level team(s) associated with the institution they belong to,
+   or the activities/tasks they are involved in.
+#. A maintainer of 3rd-level teams corresponding to
+   the repositories they are responsible for (i.e. repository manager).
+#. A member of 3rd-level teams corresponding to
+   repositories they can access and participate in the development of 
+   (but for which they are NOT responsible).
+
+These roles ensure the user a set of permissions on repositories.
 This is because access to individual repositories is not granted to individual user accounts
 but to Organization teams, following the policy below:
 
-*  3rd level teams: write permissions on the corresponding repository.
+*  3rd-level teams: write permissions on the corresponding repository.
    This enables the actual working group to autonomously manage the contents of the respective repository.
-*  2nd level teams: read permission for all the related repositories.
-   This promotes and strengthens collaboration between the project’s groups focusing on similar topics.
-
-Please note that 3rd level teams and repositories have a one-to-one correspondence
-and share the same name.
-The users responsible for a repository are maintainers of the corresponding 3rd level teams.
-This role grants them the authority to add and remove other members of the Organization to/from the teams.
-In this way, they can control the group of collaborators who can actively contribute
-to the development of the code within the repository, provided that these collaborators are members of the Organization.
+*  2nd-level teams: read permission for all the related repositories.
+   This promotes and strengthens collaboration between the project's groups focusing on similar topics.
 
 .. figure:: CN-HPC_GitHub_organization_structure.png
    :width: 604
@@ -45,6 +55,45 @@ to the development of the code within the repository, provided that these collab
    :alt: map to buried treasure
 
    ICSC CN HPC Spoke 4 GitHub organization structure.
+
+
+----------------------------------------
+Request the creation of a new repository
+----------------------------------------
+
+After joining the Organization, each member can request the creation of a new repository.
+The request involves opening a dedicated issue, following the procedure outlined below.
+
+#. In the repository `administration <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate/administration>`_ 
+   open the **Issues** tob.
+#. Click **New Issue**, then click the **Get started** button in the **Repository Creation** template.
+#. Fill in the fileds in the title and description of the issue.
+.. figure:: repo_creation.png
+   :width: 604
+   :height: 306
+   :alt: Repo creation issue snapshot.
+
+   Please fill in all the fields in <> brackets without deleting any lines.
+   If no collaborator exists at the time the repository is created,
+   please leave the corresponding line empty 
+   (i.e. delete everything between the squared brackets, including the brackets).
+   Leave the *assignees* set to the Organization owners and the *label* set to *new_repo*.
+   Below is an example of a correctly compiled request.
+.. figure:: repo_creation_ok.png
+   :width: 604
+   :height: 306
+   :alt: Repo creation issue snapshot.
+
+#. After completing the request, click **Submit new issue**.
+
+The Organization owners will take care of creating the new repository 
+and the related 3rd-level team.
+After this, please check that the access permissions to the repository are correctly set 
+(the 3rd-level team should have write access to the repository, 
+and the 2nd-level team should have read access).
+The repository manager can add Organization members to the 3rd-level team, thereby granting them
+write access to the repository.
+
 
 ------------------------
 Authentication to GitHub
