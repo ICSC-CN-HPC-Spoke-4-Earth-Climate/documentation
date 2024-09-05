@@ -23,7 +23,7 @@ Contents
 
 .. toctree::
 
-   Introduction <introduction>
-   GitHub Documentation Excerpts <GitHub_doc_excerpts>
-   Guidelines & How-tos <howtos/index>
+   Introduction <1_introduction>
+   GitHub Documentation Excerpts <2_GitHub_doc_excerpts>
+   Guidelines & How-tos <3_howtos/index>
 
