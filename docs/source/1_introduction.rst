@@ -68,12 +68,11 @@ Considering the structure of the Spoke's working groups,
 a hierarchy of teams has been deployed.
 The following figure illustrates such structure.
 
-.. fig_organization_structure:
-
 .. figure:: images/CN-HPC_GitHub_organization_structure_v2.png
    :name: organization_structure
    :width: 734
    :height: 417
+   :align: center
    :alt: ICSC CN HPC Spoke 4 GitHub Organization structure
 
 Five primary teams (**1st-Level Teams**) have been created, corresponding to
@@ -170,8 +169,8 @@ The following table provides a summary of the different possibility:
 Within the ICSC CN HPC Spoke 4 GitHub Organization, repository level roles
 are assigned to teams as follows:
 
-* 3rd-Level teams: **Write** access to the corresponding repository.
-* 2nd-Level teams: **Read** access to the corresponding group of repositories.
+* 3rd-Level teams: **write** access to the corresponding repository.
+* 2nd-Level teams: **read** access to the corresponding group of repositories.
 
 
 -------------------

@@ -34,10 +34,3 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-# Add Mermaid
-html_static_path = ['_static']
-html_js_files = [
-    'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js',
-    'custom.js'
-]

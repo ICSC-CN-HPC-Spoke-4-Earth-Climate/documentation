@@ -1,6 +1,7 @@
-##################################################
-ICSC Spoke 4 *Earth & Climate* GitHub Organization
-##################################################
+#####################################
+ICSC CN HPC Spoke 4 *Earth & Climate* 
+GitHub Organization
+#####################################
 
 Documentation for the GitHub Organization related to
 Spoke 4 - Earth & Climate of the
@@ -25,5 +26,5 @@ Contents
 
    Introduction <1_introduction>
    GitHub Documentation Excerpts <2_GitHub_doc_excerpts>
-   Guidelines & How-tos <3_howtos/index>
+   How-tos <3_howtos/index>
 

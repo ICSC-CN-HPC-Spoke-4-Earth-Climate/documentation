@@ -6,72 +6,108 @@ Member's How-to
 First steps
 -----------
 
-After receiving and accepting the invitation to join the Organization, 
-members can access the Organization's web pages.
+After receiving and accepting the invitation 
+to join the Organization, members can access 
+the Organization's web pages.
 The `main page of the Organization <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate>`_
-can be reached by using the link in the left sidebar of each member's GitHub main page,
+can be reached by using the link in the left sidebar 
+of each member's GitHub main page, 
 under the section **Organizations.**
-In the invitation phase, each prospective member is assigned to their respective WP and 
-to the relevant 2nd-level teams.
+In the invitation phase, each prospective member 
+is assigned to their respective 1st-Level and 
+to the relevant 2nd-Level team(s).
 
-After being added to the Organization, 
-members can request the creation of new repositories (:ref:`Request the creation of a new repository`).
-For each repository, an organization member is required to be the *manager*, i.e. the person
+After being added to the Organization, members 
+can request the creation of new repositories 
+(:ref:`Request the creation of a new repository`).
+For each repository, an organization member 
+is required to be the **manager**, i.e. the person
 responsible for the repository and the associated working group.
-Each repository is associated with a 3rd-level team, which is meant to group the Organization members working
-on the code contatined within.
-Please note that 3rd-level teams and repositories have a one-to-one correspondence
-and share the same name.
-The repository manager is the *maintainer* of the corresponding 3rd-level team.
-This role grants them the authority to add and remove members of the Organization to/from the team.
-In this way, they can control the group of collaborators who can actively contribute
-to the development of the code within the repository, 
-provided that these collaborators are members of the Organization.
+Each repository is associated with a 3rd-level team 
+(see Figure :ref:`fig_organization_structure`
+for a schematic of the Organization structure. 
+A detailed description can be found
+in Section :ref:`Organization Structure`), 
+which is meant to group the Organization members 
+working on the code contatined within.
 
-To summarise the typical case, after joining the Organization 
-and once some repositories have been set up, each member is:
+.. note::
+   3rd-level teams and repositories have a 
+   1-to-1 correspondence and share the same name.
 
-#. A member of their WP team.
+The repository manager is the **maintainer** 
+of the corresponding 3rd-level team.
+This role grants them the authority to add and remove 
+members of the Organization to/from the team.
+In this way, they can control the group of collaborators 
+who can actively contribute to the development of 
+the code within the repository, provided that 
+these collaborators are members of the Organization.
+
+To summarise the typical case, after joining 
+the Organization and once some repositories 
+have been set up, each member is:
+
+#. A member of their 1st-Level team.
 #. A member of the 2nd-level team(s) associated with the institution they belong to,
    or the activities/tasks they are involved in.
 #. A maintainer of 3rd-level teams corresponding to
-   the repositories they are responsible for (i.e. repository manager).
+   the repositories they are responsible for
+   (i.e. repository manager).
 #. A member of 3rd-level teams corresponding to
-   repositories they can access and participate in the development of 
+   repositories they can access and participate 
+   in the development of 
    (but for which they are NOT responsible).
 
 These roles ensure the user a set of permissions on repositories.
-This is because access to individual repositories is not granted to individual user accounts
+This is because access to individual repositories 
+is not granted to individual user accounts
 but to Organization teams, following the policy below:
 
-*  3rd-level teams: write permissions on the corresponding repository.
-   This enables the actual working group to autonomously manage the contents of the respective repository.
-*  2nd-level teams: read permission for all the related repositories.
-   This promotes and strengthens collaboration between the project's groups focusing on similar topics.
+* 3rd-level teams: **write** permissions on 
+  the corresponding repository.
+  This enables the actual working group to 
+  autonomously manage the contents 
+  of the respective repository.
+* 2nd-level teams: **read** permission for all 
+  the related repositories.
+  This is intended to promote and strengthen collaboration 
+  between the project's groups focusing on similar topics.
 
-.. figure:: CN-HPC_GitHub_organization_structure.png
-   :width: 604
-   :height: 306
-   :alt: map to buried treasure
 
+.. _fig_organization_structure:
+
+.. figure:: images/CN-HPC_GitHub_organization_structure_v2.png
+   :name: organization_structure
+   :width: 734
+   :height: 417
+   :align: center 
+   :alt: ICSC CN HPC Spoke 4 GitHub Organization structure
+
+   ICSC CN HPC Spoke 4 GitHub Organization structure
 
 
 ----------------------------------------
 Request the creation of a new repository
 ----------------------------------------
 
-After joining the Organization, each member can request the creation of a new repository.
-The request involves opening a dedicated `issue <https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues>`_, 
+After joining the Organization, each member 
+can request the creation of a new repository.
+The request involves opening a dedicated 
+`issue <https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues>`_, 
 following the procedure outlined below.
 
 #. In the repository `administration <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate/administration>`_ 
    open the **Issues** tab.
-#. Click **New Issue**, then click the **Get started** button in the **Repository Creation** template.
+#. Click **New Issue**, then click the 
+   **Get started** button in the **Repository Creation** template.
 
    .. figure:: repo_creation_template.png
       :width: 600
       :height: 50
       :alt: Repo creation template.
+
+   .. note
 
 #. Fill in the fileds in the title and description of the issue.
 
