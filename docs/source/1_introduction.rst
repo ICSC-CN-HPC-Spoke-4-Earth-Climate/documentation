@@ -55,8 +55,8 @@ roles to a restricted group of administrators.
 
 .. figure:: images/CN-HPC_GitHub_organization_structure_v2.png
    :name: organization_structure
-   :width: 604
-   :height: 306
+   :width: 734
+   :height: 417
    :alt: ICSC CN HPC Spoke 4 GitHub organization structure
 
 
