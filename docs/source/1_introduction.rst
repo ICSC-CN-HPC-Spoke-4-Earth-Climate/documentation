@@ -2,6 +2,7 @@
 Introduction
 ============
 
+--------------------------
 Aim and General Principles
 --------------------------
 
@@ -30,7 +31,8 @@ It is assumed that the project developers have at least a basic understanding
 of version control principles and fundamental Git and GitHub operations.
 
 Being a large and heterogeneous project, involving tasks organized
-into 5 Work Packages, the creation of a single repository
+into 5 Work Packages and several Innovation Grants,
+the creation of a single repository
 with a tree structure to collect the produced code is deemed too rigid.
 This approach would inhibit the necessary management flexibility,
 interfering with the day-by-day work of the various developers, also adding
@@ -50,16 +52,7 @@ to organize their repositories according to specific needs,
 while leaving control of the overall structure and organization
 roles to a restricted group of administrators.
 
-
-.. fig_organization_structure:
-
-.. figure:: images/CN-HPC_GitHub_organization_structure_v2.png
-   :name: organization_structure
-   :width: 734
-   :height: 417
-   :alt: ICSC CN HPC Spoke 4 GitHub organization structure
-
-
+----------------------
 Organization Structure
 ----------------------
 
@@ -72,28 +65,62 @@ the actual structure of working groups.
 More details about GitHub Teams can be found :ref:`here <Teams>`.
 
 Considering the structure of the Spoke's working groups,
-a hierarchy of teams corresponding to the project proposal has been deployed.
-Figure :ref:`fig_organization_structure` illustrates such structure.
-Five primary teams (**Work Packages Teams**) have been created, corresponding to
+a hierarchy of teams has been deployed.
+The following figure illustrates such structure.
+
+.. fig_organization_structure:
+
+.. figure:: images/CN-HPC_GitHub_organization_structure_v2.png
+   :name: organization_structure
+   :width: 734
+   :height: 417
+   :alt: ICSC CN HPC Spoke 4 GitHub Organization structure
+
+Five primary teams (**1st-Level Teams**) have been created, corresponding to
 the five work packages of Spoke 4.
 These teams are designed to bring together all the individuals
 involved in or collaborating on the activities within
 each work packages.
-For each WP team, two member are required to be team maintainers
+Additionally, a team has been created to group the developers
+working on the Innovation Grants activities.
+For each 1st-level team, two Organization members are required to be *team maintainers*
 (more on this :ref:`here <par_team_maintainers>`).
-Maintainers will be able to manage team memberships and settings.
-This approach ensures the necessary autonomy for individual work packages,
-providing the organization with the required operational flexibility.
+Maintainers are able to manage team memberships and settings.
+This approach ensures the necessary autonomy
+for the individual work packages and innovation grants,
+providing the Organization with the required operational flexibility.
 
-The fine structure can be discussed and adapted based on
-the needs of individual work packages.
-The ability to create child teams will be disabled for the ICSC Spoke 4
-GitHub organization members.
+The structure of the undelying level (**2nd-Level Teams**) is as follows:
 
+* For the Work Packages 1st-Level Teams, the structure can be 
+  discussed and adapted based on specific needs. 
+  Common strategies include creating 2nd-Level Teams corresponding to:
+  
+  - The Project Proposal tasks
+  - The institution involved
+  - The thematic or disciplinary areas involved
+
+* For the Innovation Grants 1st-Level Team, a separate 2nd-Level Team is created
+  for each Innovation Grant requiring access to the Organization.
+
+The lowest level of the hierarchy (**3rd-Level Teams**) includes
+teams that group the Organization members working on
+each code repository.
+These teams have a 1-to-1 correspondance with these repositories and
+are created alongside them upon request from an Organization member 
+(see the Section :ref:`Request the creation of a new repository` for instructions
+on how to request a new repository).
+
+.. note::
+  The ability to create child teams is disabled for the ICSC Spoke 4
+  GitHub organization members.
+
+
+-----
 Roles
 -----
 
-Within a GitHub Organization, it is possible to define **Roles**.
+Within a GitHub organization, it is possible to define **Roles**.
 Roles are a set of permissions that can be assigned to individuals or teams.
 A permission is the ability to perform an action on GitHub.
 There are three types of roles:
@@ -109,19 +136,13 @@ Two organization roles are relevant to the ICSC Spoke 4 GitHub Organization:
 * **Organization Member**: default, non-administrative role.
 * **Organization Owner**: complete administrative access.
 
-The owners of the ICSC Spoke 4 GitHub Organization are appointed
+The owners of the ICSC CN HPC Spoke 4 GitHub Organization are appointed
 by the coordination of the Spoke.
 About 3-4 members are selected for this role,
 to ensure the necessary stability and continuity in the management
-and long-term maintenance of the organization and the connected repositories.
+and long-term maintenance of the Organization and the connected repositories.
 Organization owners can create repositories, configure their settings,
 delete them, and perform other relevant operations.
-To protect the organization's data, **the creation of repositories
-has been restricted to only the organization owners.**
-Work package leaders or work package team maintainers are required to provide a list
-of the repositories they intend to create or transfer to the organization.
-Later requests will follow a similar protocol.
-More on this in the :ref:`WP Team Maintainer's How-to`.
 
 Team-level roles allow members to manage a team.
 Any organization member can be assigned the role of team maintainer,
@@ -146,21 +167,41 @@ The following table provides a summary of the different possibility:
 | Admin    | Full access to the repo, including sensitive and destructive actions (security settings/deletion) |
 +----------+---------------------------------------------------------------------------------------------------+
 
-General Policies
-----------------
+Within the ICSC CN HPC Spoke 4 GitHub Organization, repository level roles
+are assigned to teams as follows:
 
-* Throughout the project, the repositories can be kept private.
-  Therefore, it will be accessible only to the the development team
-  and accessible by the related 2nd level team.
+* 3rd-Level teams: **Write** access to the corresponding repository.
+* 2nd-Level teams: **Read** access to the corresponding group of repositories.
+
+
+-------------------
+Repository Policies
+-------------------
+
+Each ICSC CN HPC Spoke 4 GitHub Organization member 
+can request the creation of a new repository
+(see the Section :ref:`Request the creation of a new repository`)
+or the trasfer of an existing repository to the Organization.
+
+.. important::
+  To protect the Organization's data, **the ability to create repositories
+  is restricted to Organization owners only.**
+
+The following general policies apply to the repositories within the 
+ICSC CN HPC GitHub Organization :
+
+* Throughout the project, the repositories can be kept private
+  (and are private by default).
 * At the end of the project the repository will be made public.
-  The scientific coordination of the project or the WP maintainers
-  can decide to make public part of the repository during the project lifetime.
-* The purpose of each repo is to contain and track the development of a defined,
-  independent set of programs designed to perform a specific task.
-  Considering the diverse needs of the developers involved in the Spoke,
-  a common layout is not strictly required.
+  The scientific coordination of the Spoke or the WP leaders
+  can decide to make part of the code
+  within a repository public during the project lifetime.
+* Each repository should contain and 
+  track the development of a defined, independent 
+  set of programs designed to perform a specific task.
+  Considering the diverse needs of the developers involved 
+  in the Spoke, a common layout is not strictly required.
   Nevertheless, GitHub
   `best practices <https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories>`_
   are recommended, particularly the creation of a README file
   specifying the purpose of the code contained in each repository.
-
