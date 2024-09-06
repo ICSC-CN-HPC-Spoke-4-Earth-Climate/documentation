@@ -1,7 +1,20 @@
-===========================
-WP Team Maintainer's How-to
-===========================
+============================
+Work Package Leader's How-to
+============================
 
+This guide is intended for the Project 
+Work Package (WP) Leaders
+who wish to set up an infrastructure
+within the ICSC CN HPC Spoke 4 
+GitHub Organization to host
+the code produced during the activities
+they oversee.
+Leaders of Innovation Grants should
+also follow these guidelines when 
+requesting access to the Organization.
+
+
+---------------
 Teams Hierarchy
 ---------------
 
@@ -9,36 +22,67 @@ Teams Hierarchy
    Check out :ref:`Teams` for a brief description of what a team is
    and what the role of a team maintainer is.
 
-Within the ICSC Spoke 4 GitHub organization, the teams hierarchy
-is organized to mirror the structure outlined in the project proposal.
-For safety and organizational reasons, the authority to create teams
+Within the ICSC CN HPC Spoke 4 GitHub organization, 
+the teams hierarchy is organized to mirror 
+the structure outlined in the project proposal.
+For safety and organizational reasons, 
+the authority to create teams
 is reserved for the Organization owners.
 
-A three-level hierarchy has been implemented:
+A three-level hierarchy has been implemented,
+as described below:
 
-#. **Level 1: Work Packages.**
-   Each of these teams brings together developers
-   working within the same WP.
+.. figure:: ../images/CN-HPC_GitHub_organization_structure_v2.png
+   :name: organization_structure
+   :width: 734
+   :height: 417
+   :align: center 
+   :alt: ICSC CN HPC Spoke 4 GitHub Organization structure
+
+#. **Level 1: Work Packages/Innovations Grants**
+   Each of the Work Package team brings 
+   together developers working 
+   within the same WP.
+   The *Innovation Grants* team groups
+   all Organization members
+   involved in one of these grants. 
    Each WP team is assigned two maintainers,
    appointed by the WP leader.
-#. **Level 2: Task/Thematic Area/Institution.**
+   No maintainers are assigned 
+   to the *Innovation Grants* team.
+#. **Level 2: Task/Thematic Area/Institution**
    The second level of the hierarchy
    is designed to adapt to the needs
-   of the research groups involved in the project.
-   To encourage the sharing of code assets produced within the project,
-   it is recommended to create teams reflecting the project's tasks.
-   However, teams can also be organized by grouping individuals
-   working within the same institution.
-   The decision on how to organize second-level teams is delegated to WP leaders
-   and must be communicated to organization owners.
+   of the research groups involved 
+   in the project.
+   To encourage the sharing of code assets 
+   produced, it is recommended to create 
+   teams that reflect the project tasks.
+   However, teams can also be organized 
+   by grouping members affiliated
+   with the same institution,
+   or those working on similar
+   thematic or disciplinary areas.
+   The decision on how to organize 
+   second-level teams is delegated to the
+   work packages and innovation grants leaders.
    When requesting access to the Organization,
-   WP leaders must write to the organization owners,
-   requesting the implementation of the desired second-level structure.
-   Additionally, they should specify two members
-   for each of the second level teams,
-   who will become team maintainers
-   (possibly but not necessarily the same members
-   appointed as WP team maintainers). 
+   WP/innovation grant leaders must 
+   communicate the desired second-level 
+   structure to the organization owners.
+   Additionally, they should specify two 
+   Organization member for each second level 
+   team who will become team maintainers
+   (for teams related to the project
+   work packages, these member may,
+   but are not required to, be the same 
+   as the WP team maintainers).
+   As the ability to create child teams
+   is disabled for Organizazion members,
+   Organization owners
+   will be responsible for implementing
+   the desired second-level structure.
+    
 #. **Level 3: Work Groups.**
    These teams are meant to group developers working on a single repository.
    They can consist of a single person, up to an arbitrary number of people.
@@ -48,12 +92,17 @@ A three-level hierarchy has been implemented:
    within the repository
    (akin to the owner of a personally held GitHub repository).
 
-.. figure:: CN-HPC_GitHub_organization_structure.png
-   :width: 604
-   :height: 306
-   :alt: map to buried treasure
+.. _fig_organization_structure:
 
-   ICSC CN HPC Spoke 4 GitHub organization structure.
+.. figure:: ../images/CN-HPC_GitHub_organization_structure_v2.png
+   :name: organization_structure
+   :width: 734
+   :height: 417
+   :align: center 
+   :alt: ICSC CN HPC Spoke 4 GitHub Organization structure
+
+   ICSC CN HPC Spoke 4 GitHub Organization structure
+
 
 Memberships, Teams & Repositories Management
 --------------------------------------------

@@ -77,7 +77,7 @@ but to Organization teams, following the policy below:
 
 .. _fig_organization_structure:
 
-.. figure:: images/CN-HPC_GitHub_organization_structure_v2.png
+.. figure:: ../images/CN-HPC_GitHub_organization_structure_v2.png
    :name: organization_structure
    :width: 734
    :height: 417
@@ -103,9 +103,10 @@ following the procedure outlined below.
    **Get started** button in the 
    **Repository Creation** template.
 
-   .. figure:: repo_creation_template.png
+   .. figure:: images/repo_creation_template.png
       :width: 600
       :height: 50
+      :align: center
       :alt: Repo creation template.
 
    .. attention::
@@ -116,9 +117,10 @@ following the procedure outlined below.
 #. Fill in the fileds in the title and 
    description of the issue.
 
-   .. figure:: repo_creation.png
+   .. figure:: images/repo_creation.png
       :width: 600
       :height: 370
+      :align: center 
       :alt: Repo creation issue snapshot.
 
    Please fill in all the fields in <> brackets 
@@ -133,9 +135,10 @@ following the procedure outlined below.
    Below is an example of a correctly 
    compiled request.
 
-   .. figure:: repo_creation_ok.png
+   .. figure:: images/repo_creation_ok.png
       :width: 604
       :height: 370
+      :align: center
       :alt: Repo creation issue snapshot.
 
 #. After completing the request, click **Submit new issue**.
