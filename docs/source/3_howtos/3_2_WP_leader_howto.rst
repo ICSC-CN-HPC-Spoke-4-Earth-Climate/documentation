@@ -109,6 +109,7 @@ the Organization owners and provide the following:
    and each of the 2nd level teams.
    The following table can be
    used as a guide:
+
    +-----------------------+------------------+------------------+
    |                       | **Maintainer 1** | **Maintainer 2** |
    +=======================+==================+==================+
@@ -122,6 +123,7 @@ the Organization owners and provide the following:
    +-----------------------+------------------+------------------+
    | ...                   |                  |                  |
    +-----------------------+------------------+------------------+
+
    The Innovation Grants leaders 
    should provide only the GitHub 
    usernames of the two maintainers 
@@ -136,6 +138,7 @@ the Organization owners and provide the following:
    member will join.
    The table below provides
    an example of such a request:
+
    +-------+------+-------------+----------+---------+-----------+
    | First | Last | Affiliation | GitHub   | Contact | 2nd-level |
    | Name  | Name |             | Username | Email   | Team(s)   |
@@ -146,6 +149,7 @@ the Organization owners and provide the following:
    +-------+------+-------------+----------+---------+-----------+
    |       |      |             |          |         |           | 
    +-------+------+-------------+----------+---------+-----------+
+
 
 .. important::
 
@@ -171,14 +175,14 @@ to their respective 1st and 2nd-level teams.
 Individual developers can submit requests 
 to join the Organization at a later time 
 by directly contacting the Organization's owners 
-- with the WP/Innovation grant leader copied (Cc) -
+- with the WP/Innovation Grant leader copied (Cc) -
 and providing the necessary information.
 
 Once developers have joined the Organization, 
 team maintainers can add or remove them 
 from the teams they manage.
 
-.. important::
+.. note::
    Membership in a child team does not 
    automatically confer membership in the parent team.
    Therefore, each member must be added individually 
@@ -188,9 +192,17 @@ from the teams they manage.
 Repositories Management
 =======================
 
-For safety and organizational reasons,
-the ability to create repositories within the
-Organization is reserved for owners only.
+.. important::
+  To protect the Organization's data, **the ability to create repositories
+  is restricted to Organization owners only.**
 
 
+Each Organization member can request 
+the creation of a new repository or 
+the transfer of an existing repository 
+to the Organization. 
+For detailed instructions on requesting 
+the creation of a new repository 
+within the ICSC CN HPC GitHub Organization, 
+see the section :ref:`Request the creation of a new repository`.
 
