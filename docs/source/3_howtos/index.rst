@@ -2,6 +2,9 @@
 Guidelines & How-tos
 ********************
 
+Contents
+========
+
 .. toctree::
    :maxdepth: 2
 
