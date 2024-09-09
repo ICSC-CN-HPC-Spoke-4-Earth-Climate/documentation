@@ -205,21 +205,13 @@ Therefore, only the use of fine-grained PATs is allowed.
 To create a fine-grained PAT, 
 users must follow these steps:
 
-#.  `Verify their email address <https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address>`_
-    (if it has not been verified yet).
-#.	On any page, click their profile photo 
-   (upper-right corner) > **Settings.**
-#.	On the left sidebar click **Developer settings** > 
-   dropdown menu **Personal access tokens** > 
-   **Fine-grained tokens.**
-#. Click the button **Generate new token** 
-   (top-right button).
-#.	Set the token name, expiration, 
-   resource owner, repository access 
-   and permissions according to the 
-   table :ref:`Token Request`. 
-#.	In the **Overview** section, 
-   review the request and submit.
+#. `Verify their email address <https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/verifying-your-email-address>`_
+   (if it has not been verified yet).
+#.	On any page, click their profile photo (upper-right corner) > **Settings.**
+#.	On the left sidebar click **Developer settings** > dropdown menu **Personal access tokens** > **Fine-grained tokens.**
+#. Click the button **Generate new token** (top-right button).
+#.	Set the token name, expiration, resource owner, repository access and permissions according to the table :ref:`token_request_details`. 
+#.	In the **Overview** section, review the request and submit.
 
 After receiving approval from the Organization, 
 the token can be utilized instead of a password 
@@ -233,23 +225,22 @@ for accessing the repository from the command line.
 Token Request
 ^^^^^^^^^^^^^
 
-..table:: Token request details
-  :align: center
-
+.. _token_request_details:
+   
   +---------------------+----------------------------------------------------+
   | Token name          | <repo-name>_<username>                             |
   +---------------------+----------------------------------------------------+
   | Expiration          | Any option                                         |
   +---------------------+----------------------------------------------------+
-  | Resource owner      |	ICSC-CN-HPC-Spoke-4-Earth-Climate                  |
+  | Resource owner      |	ICSC-CN-HPC-Spoke-4-Earth-Climate                 |
   +---------------------+----------------------------------------------------+
-  | Justification	    | Enter a justification for the request              |
+  | Justification	      | Enter a justification for the request              |
   +---------------------+----------------------------------------------------+
-  | Repository access   |	Only select repositories                           |
+  | Repository access   |	Only select repositories                          |
   +---------------------+----------------------------------------------------+
-  | Select repositories |	Name of the (**single**) repository to access      |
+  | Select repositories |	Name of the (**single**) repository to access     |
   +---------------------+----------------------------------------------------+
-  | Permissions	       | Repository permissions > Contents > Read and write |
+  | Permissions	      | Repository permissions > Contents > Read and write |
   +---------------------+----------------------------------------------------+
 
 
