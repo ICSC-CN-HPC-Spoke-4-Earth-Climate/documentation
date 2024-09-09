@@ -1,6 +1,6 @@
-============================
+****************************
 Work Package Leader's How-to
-============================
+****************************
 
 This guide is intended for the Project 
 Work Package (WP) Leaders
@@ -14,9 +14,8 @@ also follow these guidelines when
 requesting access to the Organization.
 
 
----------------
 Teams Hierarchy
----------------
+===============
 
 .. note::
    Check out :ref:`Teams` for a brief description of what a team is
@@ -105,7 +104,7 @@ as described below:
 
 
 Memberships, Teams & Repositories Management
---------------------------------------------
+============================================
 
 For safety and organizational reasons,
 the ability to create repositories within the

@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'ICSC Spoke 4 - GitHub Organization'
+project = 'ICSC CN HPC Spoke 4 Earth & Climate GitHub Organization'
 copyright = '2024'
-author = 'Marcello'
+author = 'Marcello Iotti'
 
 release = '0.1'
 version = '0.1.0'

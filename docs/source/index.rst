@@ -1,7 +1,6 @@
-#####################################
-ICSC CN HPC Spoke 4 *Earth & Climate* 
-GitHub Organization
-#####################################
+#######################################################
+ICSC CN HPC Spoke 4 Earth & Climate GitHub Organization
+#######################################################
 
 Documentation for the GitHub Organization 
 related to Spoke 4 - Earth & Climate 
@@ -14,7 +13,7 @@ created and run by the
 `Main page <https://github.com/ICSC-CN-HPC-Spoke-4-Earth-Climate>`_
 of the GitHub Organization.
 
-Check out section :ref:`3_1_member_howto`
+Check out section :ref:`Member's How-to`
 for general informations and practical guides 
 on the most common operations.
 
@@ -26,7 +25,7 @@ on the most common operations.
 
 
 Contents
---------
+========
 
 .. toctree::
    :maxdepth: 2

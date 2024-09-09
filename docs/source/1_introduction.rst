@@ -1,10 +1,10 @@
-============
+************
 Introduction
-============
+************
 
---------------------------
+
 Aim and General Principles
---------------------------
+==========================
 
 `Git <https://git-scm.com/>`_ is a free and open-source
 distributed version control system, that tracks changes in files,
@@ -52,9 +52,9 @@ to organize their repositories according to specific needs,
 while leaving control of the overall structure and organization
 roles to a restricted group of administrators.
 
-----------------------
+
 Organization Structure
-----------------------
+======================
 
 The structure of a GitHub organization revolves
 around **Teams**.
@@ -115,9 +115,8 @@ on how to request a new repository).
   GitHub organization members.
 
 
------
 Roles
------
+=====
 
 Within a GitHub organization, it is possible to define **Roles**.
 Roles are a set of permissions that can be assigned to individuals or teams.
@@ -173,9 +172,8 @@ are assigned to teams as follows:
 * 2nd-Level teams: **read** access to the corresponding group of repositories.
 
 
--------------------
 Repository Policies
--------------------
+===================
 
 Each ICSC CN HPC Spoke 4 GitHub Organization member 
 can request the creation of a new repository

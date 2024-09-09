@@ -1,9 +1,10 @@
-=============================
+*****************************
 GitHub Documentation Excerpts
-=============================
+*****************************
+
 
 Teams
------
+=====
 
 GitHub organizations `teams <https://docs.github.com/en/organizations/organizing-members-into-teams/about-teams>`_ are groups of organization members.
 They can only include organization members,

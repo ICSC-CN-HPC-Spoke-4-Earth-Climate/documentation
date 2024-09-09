@@ -1,10 +1,9 @@
-===============
+***************
 Member's How-to
-===============
+***************
 
------------
 First steps
------------
+===========
 
 After receiving and accepting the invitation 
 to join the Organization, members can access 
@@ -87,9 +86,8 @@ but to Organization teams, following the policy below:
    ICSC CN HPC Spoke 4 GitHub Organization structure
 
 
-----------------------------------------
 Request the creation of a new repository
-----------------------------------------
+========================================
 
 After joining the Organization, each member 
 can request the creation of a new repository.
@@ -157,9 +155,8 @@ thereby granting them
 write access to the repository.
 
 
-------------------------
 Authentication to GitHub
-------------------------
+========================
 
 In daily use, developers typically work on 
 code saved on their local machines and then 
@@ -176,9 +173,8 @@ An extensive guide on authentication can be found on the webpage
 `About authentication to GitHub <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github>`_.
 
 
-^^^^^^^^^^^^^^^^^^^^^^
 Personal Access Tokens
-^^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 For simplicity, it is recommended to access 
 the Organization's repositories from the 
@@ -234,9 +230,8 @@ for accessing the repository from the command line.
    They should be treated with the same care as passwords.
 
 
-"""""""""""""
 Token Request
-"""""""""""""
+^^^^^^^^^^^^^
 
 ..table:: Token request details
   :align: center
