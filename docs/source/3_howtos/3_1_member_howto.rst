@@ -210,7 +210,7 @@ users must follow these steps:
 #.	On any page, click their profile photo (upper-right corner) > **Settings.**
 #.	On the left sidebar click **Developer settings** > dropdown menu **Personal access tokens** > **Fine-grained tokens.**
 #. Click the button **Generate new token** (top-right button).
-#.	Set the token name, expiration, resource owner, repository access and permissions according to the table :ref:`token_request_details`. 
+#.	Set the token name, expiration, resource owner, repository access and permissions according to the table in Section :ref:`Token Request Details`.
 #.	In the **Overview** section, review the request and submit.
 
 After receiving approval from the Organization, 
@@ -222,26 +222,24 @@ for accessing the repository from the command line.
    They should be treated with the same care as passwords.
 
 
-Token Request
-^^^^^^^^^^^^^
+Token Request Details
+^^^^^^^^^^^^^^^^^^^^^
 
-.. _token_request_details:
-   
-  +---------------------+----------------------------------------------------+
-  | Token name          | <repo-name>_<username>                             |
-  +---------------------+----------------------------------------------------+
-  | Expiration          | Any option                                         |
-  +---------------------+----------------------------------------------------+
-  | Resource owner      |	ICSC-CN-HPC-Spoke-4-Earth-Climate                 |
-  +---------------------+----------------------------------------------------+
-  | Justification	      | Enter a justification for the request              |
-  +---------------------+----------------------------------------------------+
-  | Repository access   |	Only select repositories                          |
-  +---------------------+----------------------------------------------------+
-  | Select repositories |	Name of the (**single**) repository to access     |
-  +---------------------+----------------------------------------------------+
-  | Permissions	      | Repository permissions > Contents > Read and write |
-  +---------------------+----------------------------------------------------+
++---------------------+----------------------------------------------------+
+| Token name          | <repo-name>_<username>                             |
++---------------------+----------------------------------------------------+
+| Expiration          | Any option                                         |
++---------------------+----------------------------------------------------+
+| Resource owner      |	ICSC-CN-HPC-Spoke-4-Earth-Climate                  |
++---------------------+----------------------------------------------------+
+| Justification       | Enter a justification for the request              |
++---------------------+----------------------------------------------------+
+| Repository access   |	Only select repositories                           |
++---------------------+----------------------------------------------------+
+| Select repositories |	Name of the (**single**) repository to access      |
++---------------------+----------------------------------------------------+
+| Permissions         | Repository permissions > Contents > Read and Write |
++---------------------+----------------------------------------------------+
 
 
 Notes:
