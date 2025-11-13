@@ -8,9 +8,6 @@ ICSC CN HPC Spoke 4 Earth & Climate GitHub Organization.
 Each guide outlines the recommended workflows 
 for a specific role.
 
-Contents
-========
-
 .. toctree::
    :maxdepth: 2
 
