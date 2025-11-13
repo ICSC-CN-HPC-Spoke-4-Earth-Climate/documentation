@@ -10,15 +10,12 @@ Aim and General Principles
 distributed version control system, that tracks changes in files,
 and is particularly useful when different people are working
 on the same file at the same time.
-`GitHub <https://github.com/>`_ is a web-based platform
-which provides hosting for Git repositories,
-extending the functionalities of Git with a web-based graphical interface
-and many other features like issue tracking and pull requests.
-It enables code sharing and collaborative work,
-fostering the revision process, allowing the integration of
-different development lines without impacting the
-functionalities of the production code,
-and providing instruments to solve conflicts.
+`GitHub <https://github.com/>`_ is an online platform for hosting Git repositories. 
+It adds a web interface and features such as issue tracking and pull requests, 
+making collaboration easier and helping teams manage code changes.
+It supports sharing code and collaborating across teams, 
+helping integrate multiple development lines safely 
+and resolve conflicts efficiently.
 
 The aim of having a common space to gather the code
 produced within Spoke 4 - Earth & Climate of the
@@ -41,12 +38,15 @@ Taking into account the nature of the project,
 the creation of a
 `GitHub Organization <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations>`_
 is considered more appropriate.
-A GitHub organization is a shared account, serving as a container
-for multiple repositories, which can be given a unique name and brand.
-Organizations enable to define a hierarchy of roles
-for the personal accounts joining it,
-allowing a subset of people to granularly manage
-the access to the organization resources.
+A GitHub Organization acts as a shared account for multiple repositories, 
+with a unique name and branding. 
+It allows administrators to assign roles and manage access to resources 
+in a structured way.
+
+A GitHub Organization acts as a shared account for multiple repositories, 
+with a unique name and branding. 
+It allows administrators to assign roles 
+and manage access to resources in a structured way.
 This solution allows individual working groups
 to organize their repositories according to specific needs,
 while leaving control of the overall structure and organization
@@ -58,11 +58,10 @@ Organization Structure
 
 The structure of a GitHub organization revolves
 around **Teams**.
-Teams are groups of organization members that can be
-effectively utilized to control member permissions.
-It is possible to create nested teams to reflect
-the actual structure of working groups.
-More details about GitHub Teams can be found :ref:`here <Teams>`.
+
+Teams group members within the organization and help manage permissions. 
+Nested teams can reflect the structure of your working groups. 
+More information on GitHub Teams is available :ref:`in the official documentation <Teams>`.
 
 Considering the structure of the Spoke's working groups,
 a hierarchy of teams has been deployed.
@@ -151,19 +150,19 @@ The access to each repository can be defined by
 `repository-level roles <https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization>`_.
 The following table provides a summary of the different possibility:
 
-+----------+---------------------------------------------------------------------------------------------------+
-| Role     | Description                                                                                       |
-+==========+===================================================================================================+
-| Read     | View the repo (for non-code contributors)                                                         |
-+----------+---------------------------------------------------------------------------------------------------+
-| Triage   | NO write access. Manage issues, discussions, and pull requests                                    |
-+----------+---------------------------------------------------------------------------------------------------+
-| Write    | Push to the repo (for active contributors)                                                        |                        
-+----------+---------------------------------------------------------------------------------------------------+
-| Maintain | Manage the repository without access to sensitive or destructive actions (for project managers)   |
-+----------+---------------------------------------------------------------------------------------------------+
-| Admin    | Full access to the repo, including sensitive and destructive actions (security settings/deletion) |
-+----------+---------------------------------------------------------------------------------------------------+
++----------+----------------------------------------------------------------------------+
+| Role     | Description                                                                |
++==========+============================================================================+
+| Read     | View the repository                                                        |
++----------+----------------------------------------------------------------------------+
+| Triage   | Manage issues and pull requests without code changes                       |
++----------+----------------------------------------------------------------------------+
+| Write    | Push to the repository                                                     |                        
++----------+----------------------------------------------------------------------------+
+| Maintain | Manage repository settings without destructive actions                     |
++----------+----------------------------------------------------------------------------+
+| Admin    | Full control, including destructive actions (security settings/deletion)   |
++----------+----------------------------------------------------------------------------+
 
 Within the ICSC CN HPC Spoke 4 GitHub Organization, repository level roles
 are assigned to teams as follows:
