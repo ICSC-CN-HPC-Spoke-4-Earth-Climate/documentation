@@ -3,11 +3,11 @@
 # -- Project information
 
 project = 'ICSC CN HPC Spoke 4 Earth & Climate GitHub Organization'
-copyright = '2024'
+copyright = '2024-2025 ICSC High-Performance Computing, Big Data e Quantum Computing Research Centre. Documnetation authored by M. Iotti'
 author = 'Marcello Iotti'
 
-release = '0.1'
-version = '0.1.0'
+release = '0.2'
+version = '0.2'
 
 # -- General configuration
 
