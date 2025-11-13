@@ -20,8 +20,15 @@ once the necessary agreements and requests have been made.
 
 2. **Invite the user**
 
-   - Go to the **People** tab of the organization.  
+   - Go to the **People** tab of the organization. 
    - Click on the **Invite member** button.
+
+   .. figure:: images/3_3_invite_member.png
+      :width: 600
+      :height: 150
+      :align: center 
+      :alt: Invite member.
+
 
 3. **Set membership type**
 
