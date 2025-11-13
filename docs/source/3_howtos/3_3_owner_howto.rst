@@ -29,16 +29,31 @@ once the necessary agreements and requests have been made.
       :align: center 
       :alt: Invite member.
 
+    - Search for the user by their GitHub username.
+    - Click **Invite.**
 
 3. **Set membership type**
 
    - Select **Member** (do not select Owner!).
+
+   .. figure:: images/3_3_select_role.png
+      :width: 600
+      :height: 150
+      :align: center 
+      :alt: Invite member.
+
 
 4. **Assign teams**
 
    - Add the invited user to the relevant WP/Innovation Grant team.  
    - If applicable, also add them to the second-level team, 
      according to the structure previously agreed with the WP Leader.
+
+   .. figure:: images/3_3_add_to_teams.png
+      :width: 600
+      :height: 150
+      :align: center 
+      :alt: Invite member.
 
 5. **Send the invitation** 
 
