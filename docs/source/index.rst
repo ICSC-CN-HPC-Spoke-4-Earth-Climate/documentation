@@ -31,6 +31,5 @@ Contents
    :maxdepth: 2
 
    Introduction <1_introduction>
-   GitHub Documentation Excerpts <2_GitHub_doc_excerpts>
+   Reference: Key GitHub Features <2_GitHub_key_features>
    How-tos <3_howtos/index>
-
