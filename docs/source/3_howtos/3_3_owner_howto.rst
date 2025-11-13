@@ -37,10 +37,10 @@ once the necessary agreements and requests have been made.
    - Select **Member** (do not select Owner!).
 
    .. figure:: images/3_3_select_role.png
-      :width: 600
-      :height: 150
+      :width: 500
+      :height: 200
       :align: center 
-      :alt: Invite member.
+      :alt: Select role.
 
 
 4. **Assign teams**
@@ -50,10 +50,10 @@ once the necessary agreements and requests have been made.
      according to the structure previously agreed with the WP Leader.
 
    .. figure:: images/3_3_add_to_teams.png
-      :width: 600
-      :height: 150
+      :width: 500
+      :height: 800
       :align: center 
-      :alt: Invite member.
+      :alt: Add to teams.
 
 5. **Send the invitation** 
 
