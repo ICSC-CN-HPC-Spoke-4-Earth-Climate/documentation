@@ -38,15 +38,11 @@ Taking into account the nature of the project,
 the creation of a
 `GitHub Organization <https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations>`_
 is considered more appropriate.
+
 A GitHub Organization acts as a shared account for multiple repositories, 
 with a unique name and branding. 
 It allows administrators to assign roles and manage access to resources 
 in a structured way.
-
-A GitHub Organization acts as a shared account for multiple repositories, 
-with a unique name and branding. 
-It allows administrators to assign roles 
-and manage access to resources in a structured way.
 This solution allows individual working groups
 to organize their repositories according to specific needs,
 while leaving control of the overall structure and organization
