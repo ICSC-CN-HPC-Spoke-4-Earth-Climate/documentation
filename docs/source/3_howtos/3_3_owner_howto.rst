@@ -25,19 +25,19 @@ once the necessary agreements and requests have been made.
 
    .. figure:: images/3_3_invite_member.png
       :width: 600
-      :height: 150
+      :height: 60
       :align: center 
-      :alt: Invite member.
+      :alt: Add to teams.
 
-    - Search for the user by their GitHub username.
-    - Click **Invite.**
+   - Search for the user by their GitHub username.
+   - Click **Invite.**
 
 3. **Set membership type**
 
    - Select **Member** (do not select Owner!).
 
    .. figure:: images/3_3_select_role.png
-      :width: 500
+      :width: 400
       :height: 200
       :align: center 
       :alt: Select role.
@@ -50,8 +50,8 @@ once the necessary agreements and requests have been made.
      according to the structure previously agreed with the WP Leader.
 
    .. figure:: images/3_3_add_to_teams.png
-      :width: 500
-      :height: 800
+      :width: 400
+      :height: 600
       :align: center 
       :alt: Add to teams.
 
